@@ -2,7 +2,7 @@
 /* Regina REXX - N Queen Problem Solver                              */
 /* v1.0 - Simon Sulser, 25.12.2024                                   */
 /* v1.1 - changed board.col.row to board.row.col, but no influence   */
-/*        on execution speed detected
+/*        on execution speed detected                                */
 /*********************************************************************/
 
 board. = 0
