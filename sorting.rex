@@ -56,6 +56,7 @@ show_array: procedure expose array. max
     if i // 15 = 0 then say                                             
   end                                                                   
   return
+
 show_array_small: procedure expose array. max   
   do i = 1 to 20                                
     call charout ,right(array.i,4,'0') || ' '   
@@ -90,8 +91,7 @@ comb_sort: procedure expose array. max
     end                                          
   end                                            
   return                                         
-                                                 
-                                                 
+                                                                                                 
 quick_sort: procedure expose array.              
   arg low,high                                   
   von = low; bis = high                          
